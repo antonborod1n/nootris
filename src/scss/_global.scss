@@ -1,0 +1,24 @@
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    @extend %rubikregular-400;
+    font-size: 13px;
+    color: $grey;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    flex-grow: 1;
+}

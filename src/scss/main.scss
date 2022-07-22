@@ -1,0 +1,17 @@
+@import 'vars';
+/* Переменные */
+@import 'fonts';
+/* Шрифты */
+@import 'reset';
+/* Сброс */
+@import 'global';
+/* Глобальные стили */
+
+
+.header {
+    font-size: 40px;
+    
+}
+
+/* МЕДИА-ЗАПРОСЫ */
+@import 'media';
