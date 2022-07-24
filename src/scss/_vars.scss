@@ -1,4 +1,5 @@
 /* COLOR */
+$bg: #FCDA28;
 $orange: #FCB500;
 $yellow: #FFEE00;
 $black: #111111;
@@ -16,13 +17,13 @@ $grey: #ADADAD;
     font-weight: 700;
 }
 
-
 /* BUTTON */
 %btn {
-    
-}
-
-/* TITLE DECOR */
-%title {
-    
+    width: 257px;
+    height: 57px;
+    border-radius: 7px;
+    background-color: $orange;
+    color: $black;
+    border: none;
+    cursor: pointer;
 }

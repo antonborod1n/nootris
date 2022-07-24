@@ -6,15 +6,21 @@ body {
 
 body {
     @extend %rubikregular-400;
-    font-size: 13px;
-    color: $grey;
-    line-height: 20px;
+    font-size: 18px;
+    color: $white;
+    line-height: 21px;
     display: flex;
     flex-direction: column;
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    max-width: 1120px;
     padding: 0 15px;
     margin: 0 auto;
 }
